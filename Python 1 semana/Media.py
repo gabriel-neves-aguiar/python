@@ -1,4 +1,3 @@
 n1 = int(input('Digite o primeiro número: '))
 n2 = int(input('Digite o segundo número: '))
-s = n1 + n2
-print('O resultado da soma de {} e {} é {}'.format(n1, n2, s))
+print('A média do aluno foi: {}{}{}'.format('\033[34m', (n1 + n2) / 2, '\033[m'))

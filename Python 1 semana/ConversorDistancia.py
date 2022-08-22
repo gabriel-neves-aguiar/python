@@ -1,0 +1,2 @@
+m = int(input('Digite o valor em metros: '))
+print('O valor em metros é {}{}{}, em centimetros é {}{}{} e em milimetros é {}{}{}'.format('\033[1;33m', m, '\033[m', '\033[1;34m', m * 100, '\033[m','\033[1;36m', m * 1000, '\033[m'))

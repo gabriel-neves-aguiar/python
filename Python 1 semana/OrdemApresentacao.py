@@ -5,4 +5,4 @@ a3 = str(input('Terceiro aluno: '))
 a4 = str(input('Quarto aluno: '))
 lista = [a1, a2, a3, a4]
 shuffle(lista)
-print(f'A ordem de apresentação será: {lista}')
+print('A ordem de apresentação será: {}{}{}'.format('\033[34m', lista, '\033[m'))
